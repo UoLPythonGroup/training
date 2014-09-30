@@ -1,0 +1,25 @@
+Tasks
+^^^^^
+Fibonacci numbers (Rob)
+Finite differences (Mike, Tom)
+Prime sieve (Matt)
+Game of life (Matt)
+Reading and writing data (Andy)
+Matrix operations (Rob)
+Fourier transforms (Steve)
+Random sampling (Grant, Marco)
+Graph theory/complex networks (Richard)
+Statistical analysis... (
+Parallelising (Craig)
+
+Languages
+^^^^^^^^^
+Python
+Matlab
+Fortran
+C
+R
+Julia
+Java
+Javascript
+Excel
