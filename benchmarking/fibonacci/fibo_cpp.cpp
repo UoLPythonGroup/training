@@ -1,4 +1,4 @@
-/** @file: fibo.cpp
+/** @file: fibo_cpp.cpp
  *  @author: Matthew Daws
  *
  *  C++ fibonnaci benchmark, using gmplib.
@@ -84,6 +84,10 @@ int main(int argc, char** argv)
 	}
 
 	cout << "C version:" << endl;
+	cout << 94 << " : " << timeit(1000000,[](){ fibo(94,false); }) << endl;
+	cout << 187 << " : " << timeit(1000000,[](){ fibo(187,false); }) << endl;
+	cout << 187 << " : " << timeit(1000000,[](){ fibo(187,false); }) << endl;
+	cout << 187 << " : " << timeit(1000000,[](){ fibo(187,false); }) << endl;
 	cout << 1000 << " : " << timeit(100000,[](){ fibo(1000,false); }) << endl;
 	cout << 10000 << " : " << timeit(5000,[](){ fibo(10000,false); }) << endl;
 	cout << 100000 << " : " << timeit(50,[](){ fibo(100000,false); }) << endl;
@@ -91,6 +95,12 @@ int main(int argc, char** argv)
 	cout << 2000000 << " : " << timeit(1,[](){ fibo(2000000,false); }) << endl;
 
 	cout << endl << "C++ version:" << endl;
+	cout << 94 << " : " << timeit(1000000,[](){ fibo_cpp(94,false); }) << endl;
+	cout << 94 << " : " << timeit(1000000,[](){ fibo_cpp(94,false); }) << endl;
+	cout << 94 << " : " << timeit(1000000,[](){ fibo_cpp(94,false); }) << endl;
+	cout << 187 << " : " << timeit(500000,[](){ fibo_cpp(187,false); }) << endl;
+	cout << 187 << " : " << timeit(500000,[](){ fibo_cpp(187,false); }) << endl;
+	cout << 187 << " : " << timeit(500000,[](){ fibo_cpp(187,false); }) << endl;
 	cout << 1000 << " : " << timeit(150000,[](){ fibo_cpp(1000,false); }) << endl;
 	cout << 10000 << " : " << timeit(7000,[](){ fibo_cpp(10000,false); }) << endl;
 	cout << 100000 << " : " << timeit(80,[](){ fibo_cpp(100000,false); }) << endl;
