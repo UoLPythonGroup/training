@@ -1,4 +1,5 @@
 *.exe
+*.o
 
 # iPython scratch area
 .ipynb_checkpoints/

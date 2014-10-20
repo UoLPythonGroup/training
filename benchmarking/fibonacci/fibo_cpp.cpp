@@ -6,7 +6,7 @@
  *  Copyright (c) 2014 Bartosz Szczesny <bszcz@bszcz.org>
  *  Licensed under the MIT license.
  *
- * Compile with g++ -std=c++11 -O3 -march=native -mtune=native fibo.cpp -o fibo.exe -lgmpxx -lgmp
+ * Compile with g++ -std=c++11 -O3 -march=native -mtune=native fibo_cpp.cpp -o fibo_cpp.exe -lgmpxx -lgmp
  */
 
 #include <stdint.h>
@@ -71,7 +71,7 @@ void fibo_cpp(const int n, bool print)
 	}
 }
 
-#include "timer.hpp"
+#include "timer.tpp"
 
 int main(int argc, char** argv)
 {
