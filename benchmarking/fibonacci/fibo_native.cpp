@@ -16,7 +16,7 @@ using std::endl;
 void fibo64(const int n, bool print);
 void fibo128(const int n, bool print);
 
-#include "timer.hpp"
+#include "timer.tpp"
 
 int main(int argc, char** argv)
 {
