@@ -4,12 +4,12 @@ Fibonacci numbers (Rob)
 Finite differences (Mike, Tom)
 Prime sieve (Matt)
 Game of life (Matt)
-Reading and writing data (Andy)
+Reading and writing data (Andy, Jo)
 Matrix operations (Rob)
 Fourier transforms (Steve)
 Random sampling (Grant, Marco)
 Graph theory/complex networks (Richard)
-Statistical analysis... (
+Statistical analysis... (Jochen, Jan?)
 Parallelising (Craig)
 
 Languages
