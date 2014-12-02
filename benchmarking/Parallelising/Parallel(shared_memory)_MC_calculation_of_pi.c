@@ -7,7 +7,7 @@ float get_pi(int N){
   //Monte Carlo method of calculating pi the argument is the number of samples to use.
   int pi=0,n;
   float x,y;
-#pragma omp parallel private(n,x,y)//enter parallel region of code
+#pragma omp parallel private(n,x,y)reduction(+:pi)//enter parallel region of code
 {
 #pragma omp for schedule(dynamic)//collapse loop (sharing work between cores. In dynamic mode the task will go to the next free core.) 
   for(n=0;n<N;++n){
