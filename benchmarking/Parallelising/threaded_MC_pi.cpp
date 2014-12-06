@@ -26,6 +26,20 @@
  * Varying the PRND used can change this: e.g. knuth_b is slow, but 2 threads is actually
  * slightly faster than 50% of single-threaded speed.  An allegedly known problem with the
  * Mersenne twister is it's large state space and knock-on effect on caches.
+ *
+ * i3-4160 3.6GHz (2 cores, 4 threads) with turboboost, -O2 etc.
+ * 10^8       0.854           0.854   0.468   0.427   0.412
+ * 3x10^8     2.56            2.56    1.53    1.28    1.24
+ * Now with hyperthreading off (so 2 cores + 2 threads)
+ * 3x10^8     2.56            2.56    1.28    1.29    1.29
+ * Now with fixed at 3.6GHz, hyperthreading off (so 2 cores + 2 threads)
+ * 3x10^8     2.56            2.56    1.28    1.29    1.29
+ * Then back to how we started:
+ * 3x10^8     2.56            2.56    1.31    1.28    1.24
+ * Repeated tests show that for 2 threads, we get a rather variable timing: sometimes as low
+ * as 1.28, and sometimes a bit more (though can't get it back to 1.53 at present).
+ * So this is looking for like an OS Scheduling issue (not consistently putting the 2 threads
+ * onto different physical CPU cores) more than anything else.  Sigh...
  */
 
 
