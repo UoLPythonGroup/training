@@ -1,0 +1,5 @@
+# This folder will contain some big, big files, so let's try to avoid uploading to GitHub
+*.csv
+*.zip
+*.7z
+*.npy
