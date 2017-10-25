@@ -8,6 +8,7 @@ to personal preference.  I would urge you to _think_ about the choices you make,
 and be alert to ways to improve your coding.
 
 - [style](style.md) -- Initial discussion of style issues.
+- [tools](tools.md) -- How using programming tools can aid style.
 - [testing](testing.md) -- Some thoughts on Unit Testing in Python.
 
 **Warning:** Work in progress...

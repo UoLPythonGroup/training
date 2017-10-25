@@ -22,3 +22,9 @@ In code.  Python forces some of this upon you (which is a good thing, IMHO).  I 
 >     Even if you don't intend anybody else to read your code, there's still a very good chance that somebody will have to stare at your code and figure out what it does: That person is probably going to be you, twelve months from now.”
 > — [Raymond Chen](https://blogs.msdn.microsoft.com/oldnewthing/20070406-00/?p=27343)
 
+
+
+
+# Further reading
+
+- [Style Guide](http://docs.python-guide.org/en/latest/writing/style/) from the excellent [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/).
