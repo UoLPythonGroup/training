@@ -12,11 +12,12 @@ we can get.
 One of the key ideas of the [previous section](style.md) was to encode as much
 information into the structure of the programming language as you could, rather
 than as comments, docs etc. which are somehow "external".  This is more easily done
-in a _static_ language like Java or C++ (or even a pure functional language such as
-_haskall_).  Python is _dynamic_ and allows you to shoot yourself in the foot more
+in a _static_ language like Java or C++.
+Python is _dynamic_ and allows you to shoot yourself in the foot more
 (see [We're all responsible users](http://docs.python-guide.org/en/latest/writing/style/#we-are-all-responsible-users) aka [We're all consenting adults](https://github.com/kennethreitz/python-guide/issues/525)).
 
 Going beyond this is the idea of [tooling](https://en.wikipedia.org/wiki/Programming_tool): the software tools you use when coding.
+
 
 # Editors
 

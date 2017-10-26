@@ -9,6 +9,4 @@ and be alert to ways to improve your coding.
 
 - [style](style.md) -- Initial discussion of style issues.
 - [tools](tools.md) -- How using programming tools can aid style.
-- [testing](testing.md) -- Some thoughts on Unit Testing in Python.
-
-**Warning:** Work in progress...
+- [testing](testing.md) -- Some thoughts on Unit Testing (in Python).
