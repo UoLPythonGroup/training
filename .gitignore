@@ -3,3 +3,10 @@
 
 # iPython scratch area
 .ipynb_checkpoints/
+
+# VSCode temp directory
+.cache
+.vscode
+
+# Python temporary objects
+__pycache__
