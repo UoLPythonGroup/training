@@ -18,3 +18,8 @@ I also want to make that case that testing will:
 - Make it easier to change and update code in the future
 - Make it less stressful to develop code
 - Ultimately make you more productive, though it may not seem so at the start.
+
+
+# We all test
+
+No doubt, when you were learning to code, 
